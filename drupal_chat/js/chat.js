@@ -34,7 +34,7 @@
               }
             })
             .catch((err) => {
-              appendMessage('Error: ' + err.message, 'error');
+              appendMessage(Drupal.t('Error: ') + err.message, 'error');
             });
         }
 
