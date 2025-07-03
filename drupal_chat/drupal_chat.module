@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function drupal_chat_theme($existing, $type, $theme, $path) {
+  return [
+    'drupal_chat_block' => [
+      'variables' => [],
+      'template' => 'drupal-chat-block',
+    ],
+  ];
+}
